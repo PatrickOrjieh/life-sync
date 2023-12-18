@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "aerosense-406101",
+    "private_key_id": "1dd5b71c0af6e07c04698aa66ff9dd702fef8401",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD2yoA3bIowOohs\nlT15pxptJZn+OGTuevHuYbi0Z9JVwsUMatSRmK+uPZKJ5eBVQrC5lJh4gTMFBk23\n0wB5PuGOLM1kFAwy/9slPJHvggetvGTw+LrnSP5oCbB/J3xu2Ecs/QRGHFL1qujG\n2/FswE4YYMZ8LbNCKm/C38EDh2D3DddFfHXpCTxXmwc23Qr/RbVsadNU5LFT1ycs\ncm+9A+trTqpyvWdU+BB2Y4M+A7jV21euk3+LizAivKo0SzbceX/gNhRiwQlCI8wd\nu1EfvEr8mBDHa/qNjEoJZyFxPKINCfoRPmkyI05gid8MnGKbNr8wHIO0sjrDxRRr\nTfSSPMTHAgMBAAECggEAFrEj/PSj+C9JoAJQ9sCgs2yDrlZtIWh4mlyt6RiqxGv2\nRmAET6bkcHcE5F0YtX4+VbIOGvZ2RH4B42cpYfygLLx93jfhr0bLVa8uFAG2xwjN\nl0KnnOCfU92gNvDghiio0sApBnFQR3qBkNdkaYV9KMytM3nYQ7s3L4n3a2WlStHy\nwRqAbbrvXuapThjsiZ5NK9cGySDS8RWup7BvbSHFT0qZHqW6ht/RDchdhicxRzII\nLVRv2ykfQ9KsJHN1ddsQSaNazSOQWOAGyHezmudUDAZJvN9NNlJnIshg9RcHt4Fs\njqHuFmnd/wtmLYLcTowgw6GvtYBORh9XW2BPCvdVIQKBgQD+oQuyHMjRKNpAkOKB\nKNKnBETKvDMtOu+cgFs3FtZD7/u9kpt+51CSbg8GbSkd38mySGOSbM/90mS1CT9R\nrGX+WBxr0tbZIwbWbKer1ygaMAE1OCbPSXsdwRq+jE+/7OBcI9Ni91nUJ7zmz8RN\nXvzSwRlcc/hvzmGY6/3s2M1EnwKBgQD4HqboUrGLpXKvKm36pfvRDlP+I6DGX70n\ntuuAdowIIIAGOijTPxQqcaBkEabivYLuaU4J2vjyuEI1ROSPZvEBCNZurg/ZcD0t\nEWgZELeUqSUDsulRbmVlf6GeDXRIkiMoKc6+KiLCJgyOgJomraLigMA6kw5teoub\nqys48zIm2QKBgQD4zxcloRjdwOSbaLfb668DgplR3VrInKlcrNP03bzbP9omoOaO\nt6s0mpTV+77MsUteiXu6rdcDuB2uBO45eZNkWGbVOX21SZO53QxuTtyh0jyr60WJ\nEc1bAsGGZobbDLUjc+Jv9zFwrK/afjTcQbAcpJGKlMuzPOCDVD6YvDTAEwKBgAtH\nQWkAEUf6vkrOD++7ycWH9DNyJSW/RlbezrepK9ZWu9sMm7x2epEvVw4Va1OVL7Vs\nnfp+tKA71e6b8hO+pyfX4f9n9Bp7Kpy41NWG2AFu6trPMCHedcd2VL9ddzKxSd3S\ngK5ONgRDPIDhwaAOdn/7QEGpW5eIYX4y+qT9EQOJAoGBAIEQ6tm7EIS8+9fnmI6s\nJkHUToLvUFL6UeD77L/zuv6AsJu8rAXGL14kBtpay0t19lPRiiTdhAXrzUi+zYXO\nh7x+Mgf8oXjyklbmsZ05KBg8O1uRgnu+fUhjd0Q6vNR0GLQh9NgwqveVFCObY+3w\nQ/PDhm4vZPzeH66mK/LW3ls7\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-r77j7@aerosense-406101.iam.gserviceaccount.com",
+    "client_id": "110491320206285322056",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-r77j7%40aerosense-406101.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
