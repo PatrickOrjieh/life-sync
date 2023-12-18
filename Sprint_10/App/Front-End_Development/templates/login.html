@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+
+<img src="{{ url_for('static', filename='images/logo-no-background.png') }}" alt="logo">
+
+<div id="login">
+<h1>Log in</h1>
+<p>Please sign in to continue</p>
+
+
+<form action="/login" method="POST">
+
+    <div class="input-field">
+        <!--Place email.png-->
+        <img class="icon" src="{{ url_for('static', filename='images/email.png') }}" alt="email" style="width: 30px;">
+        <input class="field" name="email" type="email" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="input-field">
+        <!--Place password.png-->
+        <img class="icon" src="{{ url_for('static', filename='images/password.png') }}" alt="password" style="width: 25px;">
+        <input class="field" name="password" type="password" id="password" placeholder="Password" required>
+    </div>
+
+    <a href="">Forgot Password?</a>
+
+    {% if error %}
+    <p style="color: red">{{ error }}</p>
+    {% endif %}
+    <input id="login-button" type="submit" value="Login">
+</form>
+
+<div id="signup">
+Don't have an account? <a href="/register">Sign Up</a>
+</div>
+</div>
+
+
+{% endblock %}
