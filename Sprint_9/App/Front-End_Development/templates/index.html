@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!--Link register.css-->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+
+<!--Display image from images folder "logo-no-background.png" centered above forum, top of page-->
+
+<h1 style="text-align: center;">Create Account</h1>
+
+<div id="login">
+
+<form action="/register" method="POST">
+
+    <div class="input-field">
+    <img class="icon" src="{{ url_for('static', filename='images/usericon.png') }}" alt="email" style="width: 30px;">
+    <input class="field" name="name" type="text" id="name" value="{{ name }}" placeholder="Full Name" required>
+    </div>
+    {% if errors and errors.name %}
+        <p class="error" style="color: red">{{ errors.name }}</p>
+    {% endif %}
+
+    <div class="input-field">
+    <img class="icon" src="{{ url_for('static', filename='images/email.png') }}" alt="email" style="width: 30px;">
+    <input class="field" name="email" type="email" id="email" value="{{ email }}" placeholder="Email" required>
+    </div>
+    {% if errors and errors.email %}
+        <p class="error" style="color: red">{{ errors.email }}</p>
+    {% endif %}
+
+    <div class="input-field">
+    <img class="icon" src="{{ url_for('static', filename='images/password.png') }}" alt="password" style="width: 25px;">
+    <input class="field" name="password" type="password" id="password" value="{{ password }}" placeholder="Password" required>
+    </div>
+    {% if errors and errors.password %}
+        <p class="error" style="color: red">{{ errors.password }}</p>
+    {% endif %}
+
+    <div class="input-field">
+    <img class="icon" src="{{ url_for('static', filename='images/password.png') }}" alt="password" style="width: 25px;">
+    <input class="field" name="confirm" type="password" id="confirm" value="{{ confirm }}" placeholder="Confirm Password" required>
+    </div>
+    {% if errors and errors.confirm %}
+        <p class="error" style="color: red">{{ errors.confirm }}</p>
+    {% endif %}
+    <br>
+
+    <input id="login-button" type="submit" value="Register">
+</form>
+
+<div id="signup">
+    Already have an account? <a href="/login">Log in</a>
+    </div>
+</div>
+{% endblock %}
