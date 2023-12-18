@@ -1,0 +1,5 @@
+To access the crontab 
+- crontab -e
+
+then type in the python and the location of your script
+- * * * * * python3 /home/pi/IOT/Aerosense/sensors.py
