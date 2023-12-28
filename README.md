@@ -32,5 +32,5 @@ The project code can be found in the link - `https://github.com/PatrickOrjieh/ai
 "Universal design project focused on creating a wearable air quality monitor tailored for asthma patients. Integrates with a mobile app for real-time alerts and analysis."
 
 **New:**
-"A universal design project, Aerosense offers a portable air quality monitoring solution that helps individuals with asthma through environmental insights."
+"A universal design project, Aerosense offers a portable air quality monitoring solution that helps individuals with asthma through actionable environmental insights, supported by an intuitive mobile application."
 
